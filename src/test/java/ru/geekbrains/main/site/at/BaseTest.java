@@ -27,7 +27,7 @@ public abstract class BaseTest {
         chromeDriver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
         chromeDriver.manage().timeouts().setScriptTimeout(30, TimeUnit.SECONDS);
 
-        chromeDriver.get("https://geekbrains.ru/events");
+        chromeDriver.get("https://geekbrains.ru/courses");
 
         wait15second = new WebDriverWait(chromeDriver, 15);
     }
